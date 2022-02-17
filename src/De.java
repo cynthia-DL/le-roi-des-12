@@ -1,6 +1,7 @@
 public class De {
     private int face;
     private int value;
+    private final int borne=13;
 
     public De(){
         this.face = newJet();
@@ -13,6 +14,10 @@ public class De {
         this.face=this.value;
 
         return value;
+    }
+
+    public void reverseFace(){
+        this.face=this.borne-this.face;
     }
 
     public int getFace() {
