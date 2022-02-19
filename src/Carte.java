@@ -1,6 +1,7 @@
 import java.util.Objects;
 
 public enum Carte {
+    VIDE("Aucune carte selectionées"),
     AUTOMATE ("L'AUTOMATE"),
     CHEVALIER ("LE CHEVALIER"),
     ALCHIMISTE("L'ALCHIMISTE"),
