@@ -21,7 +21,7 @@ public enum Carte {
     // Relancer votre dé
     ORACLE("L'ORACLE"),
 
-    // Votre dé vaut pour ce tour. Si il était déja sur la face 12, il faut 1
+    // Votre dé vaut 12 pour ce tour. Si il était déja sur la face 12, il faut 1
     GOLEM("LE GOLEM");
 
     Carte(String dn){

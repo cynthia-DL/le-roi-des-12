@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b2491b-2d8e-4e12-825a-ae63b47846d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TestCarte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/le-roi-des-12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/le-roi-des-12.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Carte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +33,46 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestCarte$InitialFeatures.shouldBeCorrectlyNamed">
+    <configuration name="TestCarte$InitialFeatures.shouldBeCorrectlyNamed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="le-roi-des-12" />
+      <option name="PACKAGE_NAME" value="TestCarte" />
+      <option name="MAIN_CLASS_NAME" value="TestCarte$InitialFeatures" />
+      <option name="METHOD_NAME" value="shouldBeCorrectlyNamed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCarte$InitialFeatures.shouldNotHaveANull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="le-roi-des-12" />
+      <option name="PACKAGE_NAME" value="TestCarte" />
+      <option name="MAIN_CLASS_NAME" value="TestCarte$InitialFeatures" />
+      <option name="METHOD_NAME" value="shouldNotHaveANull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestJoueur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="le-roi-des-12" />
       <option name="PACKAGE_NAME" value="" />
@@ -47,6 +84,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCarte$InitialFeatures.shouldBeCorrectlyNamed" />
+        <item itemvalue="JUnit.TestCarte$InitialFeatures.shouldNotHaveANull" />
+        <item itemvalue="JUnit.TestJoueur" />
+        <item itemvalue="JUnit.TestJoueur" />
         <item itemvalue="JUnit.TestJoueur" />
       </list>
     </recent_temporary>
@@ -60,6 +101,10 @@
       <option name="presentableId" value="Default" />
       <updated>1643738132730</updated>
       <workItem from="1643738132735" duration="905000" />
+      <workItem from="1645296628462" duration="1257000" />
+      <workItem from="1645297900648" duration="85000" />
+      <workItem from="1645297999521" duration="492000" />
+      <workItem from="1645298518525" duration="1002000" />
     </task>
     <servers />
   </component>
@@ -71,7 +116,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
