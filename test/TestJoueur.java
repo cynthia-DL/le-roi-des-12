@@ -23,7 +23,13 @@ public class TestJoueur {
                     () -> assertFalse(joueur.equals(autreJoueur)),
                     () -> assertFalse(autreJoueur.equals(memeJoueur))
             );
-        }*/
 
+            assertAll("hashcodes",
+                    () -> assertTrue(joueur.hashCode() == memeJoueur.hashCode()),
+                    () -> assertFalse(joueur.hashCode() == autreJoueur.hashCode()),
+                    () -> assertFalse(autreJoueur.hashCode() == memeJoueur.hashCode())
+            );
+
+        }*/
     }
 }
