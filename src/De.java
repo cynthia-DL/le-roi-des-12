@@ -1,7 +1,12 @@
+import com.sun.org.apache.bcel.internal.generic.INSTANCEOF;
+import com.sun.org.apache.xpath.internal.operations.Equals;
+
+import java.util.Objects;
+
 public class De {
     private int face;
     private int value;
-    private final int borne=13;
+    static final int BORNE=13;
 
     public De(){
         this.face = newJet();
@@ -16,8 +21,22 @@ public class De {
         return value;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof De)) {return false;}
+
+        De de=(De)o;
+
+        return this.value == de.getValue() && this.face==de.getFace();
+    }
+
+    @Override
+    public int hashCode() {
+        return value ^ face;
+    }
+
     public void reverseFace(){
-        this.face=this.borne-this.face;
+        this.face=this.BORNE-this.face;
     }
 
     public int getFace() {
